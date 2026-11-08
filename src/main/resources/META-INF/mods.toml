@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[52,)"
+license="MIT"
+
+[[mods]]
+modId="claudecompanion"
+version="${mod_version}"
+displayName="Claude Companion"
+description='''
+Summon Claude as a player-like companion. It hears you through Simple Voice Chat and answers in text chat.
+'''
+
+[[dependencies.claudecompanion]]
+modId="forge"
+mandatory=true
+versionRange="[52,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.claudecompanion]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.claudecompanion]]
+modId="voicechat"
+mandatory=false
+versionRange="[1.21.1-2.6.0,)"
+ordering="AFTER"
+side="BOTH"
